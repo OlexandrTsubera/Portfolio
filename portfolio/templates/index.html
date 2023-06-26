@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Portfolio{% endblock %}
+
+{% block content %}
+
+    <header class="header ">
+        <div class="header__wrapper ">
+            <h1 class="header__title">
+                  <strong>Hi, my name is <span>Oleksandr</span></strong><br>
+                 backend developer
+            </h1>
+            <div class="header__text">
+                <p>with passion for learning and creating.</p>
+            </div>
+            <a href="#!" class="btn">Download CV</a>
+        </div>
+    </header>
+
+    <main class="section ">
+        <div class="container">
+            <h2 class="title-1">Project</h2>
+            <ul class="projects">
+                <li class="project">
+                    <a href="#">
+                    <img src="static/img/01.jpg" alt="Project img" class="project__img">
+                    <h3 class="project__title">Gaming streaming portal</h3>
+                     </a>
+                </li>
+
+                <li class="project">
+                    <a href="#">
+                    <img src="/static/img/02.jpg" alt="Project img" class="project__img">
+                    <h3 class="project__title">Video service</h3>
+                </a>
+                </li>
+
+                <li class="project">
+                    <a href="#">
+                    <img src="static/img/03.jpg" alt="Project img" class="project__img">
+                    <h3 class="project__title">Video portal</h3>
+                    </a>
+                </li>
+
+                <li class="project">
+                    <a href="#">
+                    <img src="static/img/04.jpg" alt="Project img" class="project__img">
+                    <h3 class="project__title">Dating app</h3>
+                    </a>
+                </li>
+
+                <li class="project">
+                    <a href="#">
+                    <img src="static/img/05.jpg" alt="Project img" class="project__img">
+                    <h3 class="project__title">Landing</h3>
+                    </a>
+                </li>
+
+                <li class="project">
+                    <a href="#">
+                    <img src="static/img/06.jpg" alt="Project img" class="project__img">
+                    <h3 class="project__title">Gaming community</h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+{% endblock %}
